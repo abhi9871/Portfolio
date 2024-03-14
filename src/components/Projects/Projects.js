@@ -22,15 +22,15 @@ function Projects() {
             <ProjectCard
               imgPath={expenseTracker}
               title="Expense Tracker"
-              description="Expense tracker built with HTML, CSS, and JavaScript, powered by Node.js and MySQL. Track, visualize, and manage your expenses while enjoying premium features for an enhanced tracking experience."
-              ghLink="https://github.com/abhi9871/Expense-Tracker-App"
+              description="Expense tracker built with HTML, CSS, and JavaScript, powered by Node.js and MongoDB. Track, visualize, and manage your expenses while enjoying premium features for an enhanced tracking experience."
+              ghLink="https://github.com/abhi9871/Expense-Tracker-NoSql"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={groupChat}
               title="Group Chat"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with HTML, CSS, JavaScript, Node.js, and MongoDB. Have features which allows user for realtime messaging, and multimedia sharing."
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with HTML, CSS, JavaScript, Node.js, and MySQL. Have features which allows user for realtime messaging, and multimedia sharing."
               ghLink="https://github.com/abhi9871/Group-Chat-App"
             />
           </Col>
