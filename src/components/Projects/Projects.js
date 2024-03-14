@@ -39,7 +39,7 @@ function Projects() {
               imgPath={apnaStore}
               title="Apna Store"
               description="Step into Apna Store, where innovation meets convenience! Our dynamic e-commerce platform, expertly crafted with React and fortified by Firebase, invites customers to embark on a personalized online shopping spree, making every purchase a seamless delight."
-              ghLink="https://github.com/abhi9871/Expense-Tracker-App"
+              ghLink="https://github.com/abhi9871/E-commerce-Website"
               demoLink="https://e-commerce-website-navy-one.vercel.app/"
             />
           </Col>
