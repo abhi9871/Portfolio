@@ -36,10 +36,7 @@ function Experience() {
             <li className="about-activity mb-3">
               <ImPointRight /> Implemented new features and functionalities to elevate the user experience.
             </li>
-
-            <li className="about-activity mb-3">
-              <ImPointRight /> Explore the application <a href="https://expertwitnessprofiler.com/" target="_blank" rel="noopener noreferrer">here</a>.
-            </li>    
+             
           </ul>
         </blockquote>
       </Card.Body>
