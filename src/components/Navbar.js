@@ -107,7 +107,6 @@ function NavBar() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
             className="fork-btn-inner"
           >
             <AiOutlineDownload />
