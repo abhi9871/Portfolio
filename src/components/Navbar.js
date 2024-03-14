@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import pdf from "../Assets/Abhishek_Tomar.pdf"
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineDownload
 } from "react-icons/ai";
 
 import { CgFileDocument, CgWorkAlt } from "react-icons/cg";
@@ -97,6 +100,19 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="fork-btn">
+            <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+            className="fork-btn-inner"
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
